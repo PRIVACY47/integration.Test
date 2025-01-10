@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeChamp.Integrations.Scheduler", "TimeChamp.Integrations.Scheduler\TimeChamp.Integrations.Scheduler.csproj", "{B6D6B4B9-E60E-4F23-B5AB-D95428928F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeChamp.Integrations.HangFire.Dashboard", "TimeChamp.Integrations.HangFire.Dashboard\TimeChamp.Integrations.HangFire.Dashboard.csproj", "{DB277354-8C65-4B0D-B77B-96EA8562D0D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeChamp.Integraions.MainEngine", "TimeChamp.Integraions.MainEngine\TimeChamp.Integraions.MainEngine.csproj", "{228C08CA-09C8-4F31-B78B-94FDE1C5BDE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimeChamp.Integrations.Adapters", "TimeChamp.Integrations.Adapters", "{0500104A-ACA2-4558-A77F-6DE5CC7D7C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KekaAdapter", "KekaAdapter\KekaAdapter.csproj", "{9927AB74-582C-42E4-A6C7-575449D7C483}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D6B4B9-E60E-4F23-B5AB-D95428928F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D6B4B9-E60E-4F23-B5AB-D95428928F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D6B4B9-E60E-4F23-B5AB-D95428928F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D6B4B9-E60E-4F23-B5AB-D95428928F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB277354-8C65-4B0D-B77B-96EA8562D0D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB277354-8C65-4B0D-B77B-96EA8562D0D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB277354-8C65-4B0D-B77B-96EA8562D0D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB277354-8C65-4B0D-B77B-96EA8562D0D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228C08CA-09C8-4F31-B78B-94FDE1C5BDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228C08CA-09C8-4F31-B78B-94FDE1C5BDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228C08CA-09C8-4F31-B78B-94FDE1C5BDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228C08CA-09C8-4F31-B78B-94FDE1C5BDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9927AB74-582C-42E4-A6C7-575449D7C483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9927AB74-582C-42E4-A6C7-575449D7C483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9927AB74-582C-42E4-A6C7-575449D7C483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9927AB74-582C-42E4-A6C7-575449D7C483}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9927AB74-582C-42E4-A6C7-575449D7C483} = {0500104A-ACA2-4558-A77F-6DE5CC7D7C9C}
+	EndGlobalSection
+EndGlobal
