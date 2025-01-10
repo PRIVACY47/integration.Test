@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimeChamp.Integrations.Adap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KekaAdapter", "KekaAdapter\KekaAdapter.csproj", "{9927AB74-582C-42E4-A6C7-575449D7C483}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{65D99B56-346A-4127-B89F-A7D29CEAF147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{9927AB74-582C-42E4-A6C7-575449D7C483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9927AB74-582C-42E4-A6C7-575449D7C483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9927AB74-582C-42E4-A6C7-575449D7C483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D99B56-346A-4127-B89F-A7D29CEAF147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D99B56-346A-4127-B89F-A7D29CEAF147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D99B56-346A-4127-B89F-A7D29CEAF147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D99B56-346A-4127-B89F-A7D29CEAF147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
